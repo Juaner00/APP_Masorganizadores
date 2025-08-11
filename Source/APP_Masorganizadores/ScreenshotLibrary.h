@@ -3,13 +3,11 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "Misc/Paths.h"
 #include "Misc/DateTime.h"
-#include "HAL/FileManager.h"
 #include "HighResScreenshot.h"
 #include "Engine/Engine.h"
 #include "Engine/GameViewportClient.h"
 
 #if PLATFORM_ANDROID
-#include "Android/AndroidJNI.h"
 #include "Android/AndroidApplication.h"
 #include "Android/AndroidJavaEnv.h"
 #endif
